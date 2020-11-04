@@ -1,0 +1,3 @@
+[pytest11]
+reporter_html1 = pytest_reporter_html1.plugin
+

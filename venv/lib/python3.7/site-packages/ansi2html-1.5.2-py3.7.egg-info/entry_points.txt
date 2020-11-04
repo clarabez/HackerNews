@@ -1,0 +1,4 @@
+
+    [console_scripts]
+    ansi2html = ansi2html.converter:main
+    

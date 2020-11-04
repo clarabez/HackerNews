@@ -1,0 +1,3 @@
+[console_scripts]
+gitignore = gitignore.gitignore:main
+

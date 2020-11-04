@@ -1,0 +1,19 @@
+Metadata-Version: 1.0
+Name: gitignore
+Version: 0.0.8
+Summary: gitignore command generates .gitingore files from the command line.
+Home-page: http://github.com/vicky002/L-Commands
+Author: Vikesh Tiwari
+Author-email: tvicky002@gmail.com
+License: MIT
+Description: L - Commands
+        ===========
+        
+        Generate .gitignore files for you.
+        
+        USAGE :
+            type `gitignore ls` to find more details.
+            example `gitignore jetbrain` this will generate gitignore file based on jetbrains IDE.
+        
+Keywords: gitignore,git,github,command line,cli
+Platform: UNKNOWN
