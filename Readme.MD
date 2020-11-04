@@ -46,6 +46,7 @@ Selenium<br>
 (and some complements)<br>
 
 🛠 How to install it?
+
 Just run requirements.txt file by using following command on root path:
 
 ```
@@ -55,6 +56,7 @@ pip install -r requirements
 ___
 
 💻  **Test environment setup**
+
 Application folder and serial number for Android product are registered on /setup folder. 
 Just insert your serial number (adb devices) on DeviceId.py.
 
@@ -90,3 +92,10 @@ We are never satisfied about our final solutions and every project would be bett
 - Avoid using Xpath to identify elements: xpath are sensible variables to identify an element on project. As login page is a webview, I had some dificulties to make appium identifies the element to click on it. My solution was using xpath and not ID.
 - Make find_element() method more applicable: as some elements are not using same structure to be identified on screen (some with ID, some others with xpath) I used find_method() solution only for native activities. So, on login.py file I used the same structure repeatedly for differents elements. A good solution would be another method to identify only those cases.
 - Using more resources from pytest: pytest has a lot of resources to help automation run softly. Would be great to use pytest-incremental to avoid some test to be runned if a "root test" failed, for example. Parametrize the kind of execution (sanity, regression, etc) would also be good.
+
+___
+
+🎬 **Video for the execution**
+
+I also recorded a video for this execution, find it here in this link:
+[inserir link]
