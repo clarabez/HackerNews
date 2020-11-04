@@ -9,7 +9,6 @@ ___
 I am using Pytest strutucture for this project. So, here is an overview for my project:
 
 ```
-bash
 HackerNews/
   pages/
       locators/
@@ -29,10 +28,13 @@ HackerNews/
 
 🗂 **Brief explanation for each folder:**
 
-- Pages >> PageObjects related, a .py file for each folder and its functionalities as well.
-- Setup >> Here we indicate apks to be used and also the the serial number of the device under test (DeviceId.py).
-- Tests >> Test flow for the execution.
-- Utils >> Utilities for the project, like constants.
+Pages >> PageObjects related, a .py file for each folder and its functionalities as well.
+
+Setup >> Here we indicate apks to be used and also the the serial number of the device under test (DeviceId.py).
+
+Tests >> Test flow for the execution.
+
+Utils >> Utilities for the project, like constants.
 ___
 
 **Resources**
@@ -50,7 +52,6 @@ Selenium<br>
 Just run requirements.txt file by using following command on root path:
 
 ```
-bash
 pip install -r requirements
 ```
 ___
@@ -65,7 +66,6 @@ After that, indicate
 To run the project, just call pytest on terminal:
 
 ```
-bash
 pytest
 ```
 ___
@@ -75,7 +75,6 @@ ___
 To perform execution and also generate a report for that, just use following command when calling pytest:
 
 ```
-bash
 pytest --html=report.html  
 ```
 
