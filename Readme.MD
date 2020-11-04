@@ -8,6 +8,8 @@ ___
 
 I am using Pytest strutucture for this project. So, here is an overview for my project:
 
+```
+bash
 HackerNews/
   pages/
       locators/
@@ -23,23 +25,25 @@ HackerNews/
       test_yahnac.py
   utils/
       constants.py
+```
 
 🗂 **Brief explanation for each folder:**
 
-Pages >> PageObjects related, a .py file for each folder and its functionalities as well.
-Setup >> Here we indicate apks to be used and also the the serial number of the device under test (DeviceId.py).
-Tests >> Test flow for the execution.
-Utils >> Utilities for the project, like constants.
+- Pages >> PageObjects related, a .py file for each folder and its functionalities as well.
+- Setup >> Here we indicate apks to be used and also the the serial number of the device under test (DeviceId.py).
+- Tests >> Test flow for the execution.
+- Utils >> Utilities for the project, like constants.
 ___
 
 **Resources**
 
-🎯 I am using here:
-Python
-Pytest
-Appium-Python-Client
-Selenium
-(and some complements)
+🎯  I am using here:
+
+Python<br>
+Pytest<br>
+Appium-Python-Client<br>
+Selenium<br>
+(and some complements)<br>
 
 🛠 How to install it?
 Just run requirements.txt file by using following command on root path:
@@ -50,7 +54,7 @@ pip install -r requirements
 ```
 ___
 
-💻 **Test environment setup**
+💻  **Test environment setup**
 Application folder and serial number for Android product are registered on /setup folder. 
 Just insert your serial number (adb devices) on DeviceId.py.
 
@@ -64,7 +68,7 @@ pytest
 ```
 ___
 
-📝 **Report execution**
+📝  **Report execution**
 
 To perform execution and also generate a report for that, just use following command when calling pytest:
 
